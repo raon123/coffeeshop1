@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>coffeeShop</title>
+<style>
+h1{
+font-size:400%;
+color:#aa0000;
+font-family: courier;
+}
+body{
+background: url(coffeewallpaper.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#id1{
+font-family: impact;
+font-size: 100%;
+
+}
+td.error{
+color: hsl(100, 50%,75%);
+}
+</style>
+</head>
+<body>
+<form>
+<div>
+<section>
+<h1 style="text-align:center">COFFEE SHOP<sub style="font-size:25%;font-family:comic sans MS">....delicious coffee taste</sub></h1><br>
+
+<table width="25%" height="25%">
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td id="id1">PRICE</td>
+<td id="id1">QUANTITY</td>
+<td></td>
+<td id="id1">TOTAL</td>
+</tr>
+</section>
+<section>
+<tr>
+<td><img src="coffeeimages/eppresso.jpg" alt="coffee" width="200px" height="200px" style="padding:15px"></img></td>
+<td style="font-family: courier;font-size:300%" class="error">EPPRESSO</td>
+<td></td>
+<td></td>
+
+<td><p style="font-size:400%">$5.00</p></td>
+<td><input type="text" id="2"name="text2" value="" style="width:50px;height:25px"></td>
+<td><input type="button" name="bt1"  onclick="myFunction1()" value="calculate" style="width:65px;height:35px"></td>
+<td><input type="text" id="3" name="text3" value="" style="width:70px;height:25px"></td>
+</tr>
+</section>
+<section>
+<section>
+<tr>
+<td><img src="coffeeimages/mocha.jpg" alt="mocha" width="200px" height="200px style="padding:10px" ></img></td>
+<td style="font-family: courier;font-size:300%" class="error">MOCHA</td>
+<td></td>
+<td></td>
+<td><p style="font-size:400%">$7.00</p> </td>
+<td><input type="text" id="5" name="text5" value=""style="width:50px;height:25px"></td>
+<td><input type="button" name="bt1" onclick="myFunction2()"  value="calculate" style="width:65px;height:35px"></td>
+<td><input type="text" id="6" name="text6" value=""style="width:70px;height:25px"></td>
+</tr>
+</section>
+<section>
+<tr>
+<td><img src="coffeeimages/cappuccino.jpg" alt="cappuccino" width="200px" height="200px" style="padding:15px"></img></td>
+<td style="font-family: courier;font-size:300%" class="error">CAPPUCCINO</td>
+<td></td>
+<td></td>
+<td><p style="font-size:400%">$9.00</p></td>
+<td><input type="text" id="8" name="text8" value="" style="width:50px;height:25px"></td>
+<td><input type="button" onclick="myFunction3()"  name="bt1"  value="calculate" style="width:65px;height:35px"></td>
+<td><input type="text" id="9" name="text9" value="" style="width:70px;height:25px"></td>
+</tr>
+</section>
+<section>
+<tr>
+<td><img src="coffeeimages/flatwhite.jpg" alt="flatwhite" width="200px" height="200px" style="padding:15px"></img></td>
+<td style="font-family: courier;font-size:300%" class="error">FLATWHITE</td>
+<td></td>
+<td></td>
+<td><p style="font-size:400%">$10.00</p></td>
+<td><input type="text" id="11" name="text11" value="" style="width:50px;height:25px"></td>
+<td><input type="button" onclick="myFunction4()" name="bt1"  value="calculate" style="width:65px;height:35px"></td>
+<td><input type="text" id="12" name="text12" value="" style="width:70px;height:25px"></td>
+</tr>
+</section>
+<section>
+<tr>
+<td><img src="coffeeimages/cortado.jpg" alt="cortado" width="200px" height="200px" style="padding:15px"></img></td>
+<td style="font-family: courier;font-size:300%" class="error">CORTADO</td>
+<td></td>
+<td></td>
+<td><p style="font-size:400%">$12.00</p></td>
+<td><input type="text" id="14" name="text14" value="" style="width:50px;height:25px"></td>
+<td><input type="button" name="bt1" onclick="myFunction5()" value="calculate" style="width:65px;height:35px"></td>
+<td><input type="text" id="15" name="text15" value="" style="width:70px;height:25px"></td>
+</tr>
+</section>
+<section>
+<tr>
+<td><img src="coffeeimages/lattes.jpg" alt="lattes" width="200px" height="200px" style="padding:15px"></img></td>
+<td style="font-family: courier;font-size:300%" class="error">LATTES</td>
+<td></td>
+<td></td>
+<td><p style="font-size:400%">$15.00</p></td>
+<td><input type="text" id="17" name="text17" value="" style="width:50px;height:25px"></td>
+<td><input type="button" onclick="myFunction6()" name="bt1"  value="calculate" style="width:65px;height:35px"></td>
+<td><input type="text" id="18" name="text18" value="" style="width:70px;height:25px"></td>
+<td>
+</tr>
+</section>
+<section>
+<tr style="30">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td ><h3><strong>GRANDTOTAL</strong></h3></td>
+<td><input type="text" name="text19" id="19" value=""></td>
+</tr>
+</section>
+</table>
+</div>
+</form>
+<script src="coffee.js"></script>
+</body>
+</html>
